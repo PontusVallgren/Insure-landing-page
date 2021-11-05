@@ -24,17 +24,18 @@
       <div class="header-logo">
         <img src="images/logo.svg" />
       </div>
-      <div class="burger-menu">
+      <button class="burger-menu">
         <img class="burger-open" src="images/icon-hamburger.svg" />
-        <img class="burger-close" src="images/icon-close.svg" />
-      </div>
-      <nav class="main-nav">
-        <ul class="nav-list">
-          <li class="nav-link"><a href="#">How we work</a></li>
-          <li class="nav-link"><a href="#">Blog</a></li>
-          <li class="nav-link"><a href="#">Account</a></li>
-          <li class="nav-link"><a href="#">View Plans</a></li>
+        <img class="burger-close hidden" src="images/icon-close.svg" />
+      </button>
+      <nav class="nav hidden">
+        <ul class="nav-menu">
+          <li><a href="#">How we work</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a id="list-item" href="#">View Plans</a></li>
         </ul>
+        <img src="images/bg-pattern-mobile-nav.svg" />
       </nav>
     </header>
     <div class="hero-img">
@@ -114,5 +115,6 @@
         <li><a href="#"></a></li>
       </div>
     </footer>
+    <script src="./src/script.js"></script>
   </body>
 </html>

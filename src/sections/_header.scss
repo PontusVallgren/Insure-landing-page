@@ -76,6 +76,7 @@
         font-weight: 700;
         margin: 0 1rem;
         text-transform: uppercase;
+        transition: color 0.2s;
       }
       a:hover {
         color: darken($c-DarkGrayishViolet, 20);
@@ -84,6 +85,7 @@
         color: $c-DarkViolet;
         border: 1px $c-DarkViolet solid;
         padding: 0.5rem 1.2rem;
+        transition: background-color 0.2s;
       }
       #list-item:hover {
         background-color: lighten($c-DarkViolet, 75);

@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
+  z-index: 1;
   background-color: $c-VeryDarkViolet;
   width: 100%;
   left: 0;
@@ -76,10 +77,16 @@
         margin: 0 1rem;
         text-transform: uppercase;
       }
+      a:hover {
+        color: darken($c-DarkGrayishViolet, 20);
+      }
       #list-item {
         color: $c-DarkViolet;
         border: 1px $c-DarkViolet solid;
         padding: 0.5rem 1.2rem;
+      }
+      #list-item:hover {
+        background-color: lighten($c-DarkViolet, 75);
       }
     }
   }

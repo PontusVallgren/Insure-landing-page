@@ -21,7 +21,7 @@
     transition: color 0.2s;
   }
   a:hover {
-    color: lighten($c-DarkViolet, 20);
+    text-decoration: underline;
   }
 }
 .bg-pattern-footer-mobile {
@@ -74,10 +74,24 @@
     li {
       margin: 0;
     }
+    i {
+      font-size: 1.6rem;
+      color: $c-DarkGrayishViolet;
+      transition: color 0.2s;
+    }
+    i:hover {
+      color: $c-DarkViolet;
+    }
   }
   .link-flex {
     width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+  .company {
+    z-index: 1;
+  }
+  .help {
+    z-index: 1;
   }
 }

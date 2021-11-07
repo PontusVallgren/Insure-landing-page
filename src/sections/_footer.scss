@@ -47,6 +47,14 @@
       margin: 0 0.5rem;
     }
   }
+  i {
+    font-size: 1.6rem;
+    color: $c-DarkGrayishViolet;
+    transition: color 0.2s;
+  }
+  i:hover {
+    color: $c-DarkViolet;
+  }
 }
 .others {
   margin: 0 0 4rem 0;
@@ -73,14 +81,6 @@
     }
     li {
       margin: 0;
-    }
-    i {
-      font-size: 1.6rem;
-      color: $c-DarkGrayishViolet;
-      transition: color 0.2s;
-    }
-    i:hover {
-      color: $c-DarkViolet;
     }
   }
   .link-flex {

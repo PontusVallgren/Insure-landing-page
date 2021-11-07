@@ -5,7 +5,7 @@
   background-color: $c-DarkViolet;
   width: 90%;
   height: 350px;
-  margin: 0 auto;
+  margin: 8rem auto;
 
   h1 {
     color: white;
@@ -15,6 +15,7 @@
     font-weight: 400;
     text-align: center;
     margin: 5rem 2rem 0 2rem;
+    z-index: 1;
   }
   a {
     color: white;
@@ -49,7 +50,7 @@
     h1 {
       text-align: left;
       margin: 0 0 0 5rem;
-      width: 40vw;
+      width: 30vw;
     }
     a {
       margin: 0 5rem 0 0;
